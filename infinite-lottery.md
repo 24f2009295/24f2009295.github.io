@@ -1,3 +1,8 @@
+---
+title: "The Infinite Lottery Paradox"
+layout: default
+---
+
 # The Infinite Lottery Paradox  
 *A quest to understand infinity *  
 
