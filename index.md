@@ -1,6 +1,5 @@
 ---
 title: "The Infinite Lottery Paradox"
-layout: default
 ---
 
 # The Infinite Lottery Paradox  
