@@ -1,20 +1,13 @@
 ---
 title: "The Infinite Lottery Paradox"
+description: "A quest to understand infinity through probability theory"
+layout: default
 ---
 
-<!-- Load MathJax so equations render on GitHub Pages without a custom layout -->
-<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-<script id="MathJax-script" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
-</script>
-
-# The Infinite Lottery Paradox  
-*A quest to understand infinity*
-
----
-
-Abstract
+<div class="abstract">
+<h3>Abstract</h3>
 What happens when you buy every ticket in an infinite lottery? This seemingly simple question opens a Pandora's box of mathematical paradoxes that challenge our understanding of probability, infinity, and the very foundations of mathematics itself. Through the lens of the infinite lottery paradox, we'll explore how this mind-bending scenario connects probability theory, set theory, philosophy of mathematics, computer science, and even quantum mechanics. This paper presents a comprehensive analysis that makes advanced mathematical concepts accessible while maintaining rigorous mathematical treatment.
+</div>
 
 Table of Contents
 
