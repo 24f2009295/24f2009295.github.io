@@ -1,31 +1,47 @@
-title: "The Infinite Lottery Paradox"
-description: "A quest to understand infinity through probability theory"
-baseurl: ""
-url: "https://24f2009295.github.io"
+title: The Infinite Lottery Paradox
+description: A comprehensive exploration of mathematical impossibility through probability theory, set theory, and the foundations of mathematics.
+author: Sohan Paul
+email: 24f2009295@ds.study.iitm.ac.in
 
 # Build settings
 markdown: kramdown
 highlighter: rouge
+theme: minima
+
+# Kramdown settings for math
 kramdown:
   math_engine: mathjax
   syntax_highlighter: rouge
   input: GFM
   hard_wrap: false
 
+# Collections
+collections:
+  sections:
+    output: false
+
 # Plugins
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-seo-tag
 
-# Collections
-collections:
-  pages:
-    output: true
+# SEO settings
+url: "https://24f2009295.github.io"
+baseurl: ""
 
-# Defaults
-defaults:
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "default"
+# Social
+github_username: 24f2009295
+
+# Google Analytics (optional)
+# google_analytics: UA-XXXXXXXXX-X
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
