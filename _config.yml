@@ -1,47 +1,52 @@
-title: The Infinite Lottery Paradox
-description: A comprehensive exploration of mathematical impossibility through probability theory, set theory, and the foundations of mathematics.
-author: Sohan Paul
-email: 24f2009295@ds.study.iitm.ac.in
-
-# Build settings
+Site settings
+title: "The Infinity Lottery Paradox"
+description: "A Journey Through Infinite Probability, Computational Limits, and the Nature of Mathematical Truth"
+author: "Sohan Paul"
+baseurl: ""
+url: "https://24f2009295.github.io"
+Build settings
 markdown: kramdown
 highlighter: rouge
 theme: minima
-
-# Kramdown settings for math
+Kramdown settings
 kramdown:
-  math_engine: mathjax
-  syntax_highlighter: rouge
-  input: GFM
-  hard_wrap: false
+math_engine: mathjax
+syntax_highlighter: rouge
+input: GFM
+hard_wrap: false
+MathJax configuration
+mathjax:
+  extensions: ["tex2jax.js"]
+  jax: ["input/TeX", "output/HTML-CSS"]
+  tex2jax:
+    inlineMath: [["","", "
+",""], ["\\(", "\\)"]]
+    displayMath: [["$$", "$$"], ["\\[", "\\]"]]
+    processEscapes: true
+    processEnvironments: true
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+  TeX:
+    equationNumbers: { autoNumber: "AMS" }
+    extensions: ["AMSmath.js", "AMSsymbols.js", "color.js"]
+  "HTML-CSS":
+    fonts: ["TeX"]
+    linebreaks: { automatic: true }
+    scale: 100
 
-# Collections
-collections:
-  sections:
-    output: false
-
-# Plugins
+Plugin settings
 plugins:
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-seo-tag
 
-# SEO settings
-url: "https://24f2009295.github.io"
-baseurl: ""
+jekyll-feed
+jekyll-sitemap
+jekyll-seo-tag
 
-# Social
-github_username: 24f2009295
-
-# Google Analytics (optional)
-# google_analytics: UA-XXXXXXXXX-X
-
-# Exclude from processing
+Exclude from processing
 exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
+
+Gemfile
+Gemfile.lock
+node_modules
+vendor/bundle/
+vendor/cache/
+vendor/gems/
+vendor/ruby/
